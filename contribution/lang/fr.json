@@ -114,7 +114,7 @@
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Indiquer le montant de ton dépôt",
+ 	 	 	 	 	"trans": "Veuillez saisir le montant que vous souhaitez déposer",
  	 	 	 	 	"eng": "Please enter amount you want to deposit"
  	 	 	 	},
  	 	 	 	"detail": {
@@ -330,11 +330,11 @@
  	 	 	},
  	 	 	"upgradeVaultModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Mettre à niveau le coffre-fort",
+ 	 	 	 	 	"trans": "Améliorer le coffre-fort",
  	 	 	 	 	"eng": "Upgrade Vault"
  	 	 	 	},
  	 	 	 	"confirm": {
- 	 	 	 	 	"trans": "Mise à niveau",
+ 	 	 	 	 	"trans": "Améliorer",
  	 	 	 	 	"eng": "Upgrade"
  	 	 	 	}
  	 	 	},
@@ -371,7 +371,7 @@
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
- 	 	 	 	"trans": "Tu regardes d'anciens messages",
+ 	 	 	 	"trans": "Vous consultez d'anciens messages",
  	 	 	 	"eng": "You are looking at old messages"
  	 	 	},
  	 	 	"replyTo": {
@@ -386,11 +386,11 @@
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
- 	 	 	 	"trans": "Veuillez ne pas envoyer de messages sans signification, les spammeurs seront mis en sourdine.",
+ 	 	 	 	"trans": "Veuillez ne pas envoyer de messages sans signification, les spammeurs seront mis en muet.",
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
- 	 	 	 	"trans": "Veuillez ne pas envoyer le même message à plusieurs reprises, les spammeurs seront mis en sourdine.",
+ 	 	 	 	"trans": "Veuillez ne pas envoyer le même message à plusieurs reprises, les spammeurs seront mis en muet.",
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
@@ -427,7 +427,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "L'exploit de chat est en vigueur, tous les messages envoyés seront modifiés. Utilisez ${vpnName} pour sécuriser votre connexion!",
+ 	 	 	 	 	"trans": "Une exploitation du chat est en cours, tous les messages envoyés seront modifiés. Utilisez ${vpnName} pour sécuriser votre connexion!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -462,7 +462,7 @@
  	 	 	 	 	 	"playerName",
  	 	 	 	 	 	"time"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Publié par ${playerName} ${time}",
+ 	 	 	 	 	"trans": "Publié par ${playerName} il y a ${time}",
  	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
  	 	 	 	}
  	 	 	},
@@ -487,7 +487,7 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Créez un gang pour ${cost} ${currency}",
+ 	 	 	 	 	"trans": "Créer un gang pour ${cost} ${currency}",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
@@ -560,7 +560,7 @@
  	 	},
  	 	"fab": {
  	 	 	"apps": {
- 	 	 	 	"trans": "Toutes applications",
+ 	 	 	 	"trans": "Toutes les applications",
  	 	 	 	"eng": "All Apps"
  	 	 	},
  	 	 	"dungeonList": {
@@ -572,7 +572,7 @@
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
- 	 	 	 	"trans": "Boutique",
+ 	 	 	 	"trans": "Boutique Premium", 
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
@@ -746,21 +746,21 @@
  	 	 	 	 	 	"eng": "Lock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Vous pouvez empêcher accidentellement de gratter ou de vendre cet article en le verrouillant.",
+ 	 	 	 	 	 	"trans": "Vous pouvez empêcher accidentellement de recycler ou de vendre cet article en le verrouillant.",
  	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
  	 	 	 	 	}
  	 	 	 	}
  	 	 	},
  	 	 	"locked": {
- 	 	 	 	"trans": "Fermé à clé",
+ 	 	 	 	"trans": "Vérouillé",
  	 	 	 	"eng": "Locked"
  	 	 	},
  	 	 	"unlocked": {
- 	 	 	 	"trans": "Débloqué",
+ 	 	 	 	"trans": "Déverouillé",
  	 	 	 	"eng": "Unlocked"
  	 	 	},
  	 	 	"upgradeModuleTitleHeader": {
- 	 	 	 	"trans": "Améliore les créneaux",
+ 	 	 	 	"trans": "Module d'amélioration",
  	 	 	 	"eng": "Upgrades Slots"
  	 	 	},
  	 	 	"upgradeModuleTitle": {
@@ -790,7 +790,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"currentAction"
  	 	 	 	],
- 	 	 	 	"trans": "Vous ne pouvez pas imprimer du matériel pendant que ${currentAction}",
+ 	 	 	 	"trans": "Vous ne pouvez pas imprimer de l'équipement pendant que ${currentAction}",
  	 	 	 	"eng": "You can't print equipment while ${currentAction}"
  	 	 	},
  	 	 	"printCache": {
@@ -798,11 +798,11 @@
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "Transformez ce cache en un élément d'arme ou d'équipement que vous pouvez les Émirats arabes unis.",
+ 	 	 	 	"trans": "Transformez ce cache en un élément d'arme ou d'équipement que vous pouvez utiliser.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
- 	 	 	 	"trans": "Déverrouiller",
+ 	 	 	 	"trans": "Déverrouiller le conteneur",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
  	 	 	"cantOpenContainerNotIdleV2": {
